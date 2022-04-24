@@ -30,6 +30,7 @@ heroku container:release web -a {Heroku App name}
     -   to be able to register new user, first you need to get the admin token from the master realm
 
 `endpoint: '${HOST}/auth/realms/master/protocol/openid-connect/token'`
+
 `request: simple js fetch request:`
 
 ```js
@@ -87,6 +88,7 @@ async function getAdminAccessToken() {
 <br>
 
 `endpoint: '${HOST}/auth/admin/realms/{your realm}/users'`
+
 `request: simple js fetch request:`
 
 ```js
@@ -137,6 +139,7 @@ async function registerNewUser(firstname, lastname, email, username, password) {
 <br>
 
 `endpoint: '${HOST}/auth/realms/{your realm}/protocol/openid-connect/token'`
+
 `request: simple js fetch request:`
 
 ```js
@@ -193,6 +196,7 @@ async function login(username, password) {
 <br>
 
 `endpoint: '${HOST}/auth/realms/{your realm}/protocol/openid-connect/token'`
+
 `request: simple js fetch request:`
 
 ```js
