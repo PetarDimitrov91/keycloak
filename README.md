@@ -249,6 +249,7 @@ async function refreshUserAccessToken(refresh_token) {
 ```
 <br>
 <hr>
+
 #### Java: Spring Security integration
 
 -   application.properties
