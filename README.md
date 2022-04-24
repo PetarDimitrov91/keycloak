@@ -13,7 +13,7 @@ heroku container:login
 ```
 
 ```bash
-heroku container:push -a {Heroku App name}
+heroku container:push -a {Heroku App name} web
 ```
 
 ```bash
